@@ -27,6 +27,8 @@ FROM centos:8
 
 COPY --from=builder /usr/local /usr/local
 
+RUN mkdir /var/run/c-icap
+
 RUN c-icap -VV
 
 EXPOSE 1344
