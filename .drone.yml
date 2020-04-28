@@ -9,7 +9,7 @@ steps:
       username: hsmtkk
       password:
         from_secret: DOCKER_HUB_TOKEN
-      repo: hsmtkk/c-icap_docker
+      repo: hsmtkk/c-icap
       tags:
         - latest
         - 0.5.6
