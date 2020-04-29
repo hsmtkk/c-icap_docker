@@ -26,5 +26,3 @@ FROM ubuntu:20.04
 COPY --from=builder /usr/local/c-icap /usr/local/c-icap
 
 RUN /usr/local/c-icap/bin/c-icap -VV
-
-EXPOSE 1344
